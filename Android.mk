@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),a6000)
+ifeq ($(TARGET_DEVICE),wt86528)
 
 
 ifeq ($(QCPATH),)
