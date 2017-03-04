@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
     vendor/lenovo/wt86528/proprietary/etc/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
     vendor/lenovo/wt86528/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
-    vendor/lenovo/wt86528/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/lenovo/wt86528/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.vendor.so \
     vendor/lenovo/wt86528/proprietary/lib/hw/gps.msm8916.so:system/lib/hw/gps.msm8916.so \
     vendor/lenovo/wt86528/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
     vendor/lenovo/wt86528/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
@@ -93,54 +93,18 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_a3907_camcorder.so:system/vendor/lib/libactuator_a3907_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_a3907_camera.so:system/vendor/lib/libactuator_a3907_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_a3907.so:system/vendor/lib/libactuator_a3907.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_bu64297_q13v06k_camcorder.so:system/vendor/lib/libactuator_bu64297_q13v06k_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_bu64297_q13v06k_camera.so:system/vendor/lib/libactuator_bu64297_q13v06k_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_bu64297_q13v06k.so:system/vendor/lib/libactuator_bu64297_q13v06k.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_13p1ba_camcorder.so:system/vendor/lib/libactuator_dw9714_13p1ba_camcorder.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_13p1ba_camera.so:system/vendor/lib/libactuator_dw9714_13p1ba_camera.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_13p1ba.so:system/vendor/lib/libactuator_dw9714_13p1ba.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714a_camcorder.so:system/vendor/lib/libactuator_dw9714a_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714a_camera.so:system/vendor/lib/libactuator_dw9714a_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714a.so:system/vendor/lib/libactuator_dw9714a.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_camcorder.so:system/vendor/lib/libactuator_dw9714_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_camera.so:system/vendor/lib/libactuator_dw9714_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_pc0fe_camcorder.so:system/vendor/lib/libactuator_dw9714_pc0fe_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_pc0fe_camera.so:system/vendor/lib/libactuator_dw9714_pc0fe_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_pc0fe.so:system/vendor/lib/libactuator_dw9714_pc0fe.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_q13n04a_camcorder.so:system/vendor/lib/libactuator_dw9714_q13n04a_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_q13n04a_camera.so:system/vendor/lib/libactuator_dw9714_q13n04a_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_q13n04a.so:system/vendor/lib/libactuator_dw9714_q13n04a.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_q13v04b_camcorder.so:system/vendor/lib/libactuator_dw9714_q13v04b_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_q13v04b_camera.so:system/vendor/lib/libactuator_dw9714_q13v04b_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714_q13v04b.so:system/vendor/lib/libactuator_dw9714_q13v04b.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9716_camcorder.so:system/vendor/lib/libactuator_dw9716_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9716_camera.so:system/vendor/lib/libactuator_dw9716_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9718s_2gong_camcorder.so:system/vendor/lib/libactuator_dw9718s_2gong_camcorder.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9718s_2gong_camera.so:system/vendor/lib/libactuator_dw9718s_2gong_camera.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9718s_2gong.so:system/vendor/lib/libactuator_dw9718s_2gong.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9718s_camcorder.so:system/vendor/lib/libactuator_dw9718s_camcorder.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9718s_camera.so:system/vendor/lib/libactuator_dw9718s_camera.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9761b_camcorder.so:system/vendor/lib/libactuator_dw9761b_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9761b_camera.so:system/vendor/lib/libactuator_dw9761b_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9761_ofilm_camcorder.so:system/vendor/lib/libactuator_dw9761_ofilm_camcorder.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9761_ofilm_camera.so:system/vendor/lib/libactuator_dw9761_ofilm_camera.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_dw9761_ofilm.so:system/vendor/lib/libactuator_dw9761_ofilm.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_iu074_camcorder.so:system/vendor/lib/libactuator_iu074_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_iu074_camera.so:system/vendor/lib/libactuator_iu074_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_iu074.so:system/vendor/lib/libactuator_iu074.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_ov12830_camcorder.so:system/vendor/lib/libactuator_ov12830_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_ov12830_camera.so:system/vendor/lib/libactuator_ov12830_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_ov12830.so:system/vendor/lib/libactuator_ov12830.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_ov8825_camcorder.so:system/vendor/lib/libactuator_ov8825_camcorder.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_ov8825_camera.so:system/vendor/lib/libactuator_ov8825_camera.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_ov8825.so:system/vendor/lib/libactuator_ov8825.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camcorder.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_rohm_bu64243gwz_camera.so:system/vendor/lib/libactuator_rohm_bu64243gwz_camera.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
@@ -155,44 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_gc2355_8916_common.so:system/vendor/lib/libchromatix_gc2355_8916_common.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video.so:system/vendor/lib/libchromatix_gc2355_8916_default_video.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_gc2355_8916_preview.so:system/vendor/lib/libchromatix_gc2355_8916_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_hi545_8916_common.so:system/vendor/lib/libchromatix_hi545_8916_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_hi545_8916_default_video.so:system/vendor/lib/libchromatix_hi545_8916_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_hi545_8916_hfr_120fps.so:system/vendor/lib/libchromatix_hi545_8916_hfr_120fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_hi545_8916_hfr_60fps.so:system/vendor/lib/libchromatix_hi545_8916_hfr_60fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_hi545_8916_hfr_90fps.so:system/vendor/lib/libchromatix_hi545_8916_hfr_90fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_hi545_8916_liveshot.so:system/vendor/lib/libchromatix_hi545_8916_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_hi545_8916_preview.so:system/vendor/lib/libchromatix_hi545_8916_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_hi545_8916_snapshot.so:system/vendor/lib/libchromatix_hi545_8916_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_hi545_8916_video_hd.so:system/vendor/lib/libchromatix_hi545_8916_video_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx132_liveshot.so:system/vendor/lib/libchromatix_imx132_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx132_preview.so:system/vendor/lib/libchromatix_imx132_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx132_snapshot.so:system/vendor/lib/libchromatix_imx132_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx134_common.so:system/vendor/lib/libchromatix_imx134_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx134_default_video.so:system/vendor/lib/libchromatix_imx134_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx134_hfr_120.so:system/vendor/lib/libchromatix_imx134_hfr_120.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx134_hfr_60.so:system/vendor/lib/libchromatix_imx134_hfr_60.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx134_preview.so:system/vendor/lib/libchromatix_imx134_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx134_snapshot.so:system/vendor/lib/libchromatix_imx134_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx135_common.so:system/vendor/lib/libchromatix_imx135_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx135_default_video.so:system/vendor/lib/libchromatix_imx135_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx135_hfr_120.so:system/vendor/lib/libchromatix_imx135_hfr_120.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx135_hfr_60.so:system/vendor/lib/libchromatix_imx135_hfr_60.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx135_hfr_90.so:system/vendor/lib/libchromatix_imx135_hfr_90.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx135_liveshot.so:system/vendor/lib/libchromatix_imx135_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx135_preview.so:system/vendor/lib/libchromatix_imx135_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx135_snapshot.so:system/vendor/lib/libchromatix_imx135_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_8916_common.so:system/vendor/lib/libchromatix_imx214_8916_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_8916_default_video.so:system/vendor/lib/libchromatix_imx214_8916_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_8916_hfr_120fps.so:system/vendor/lib/libchromatix_imx214_8916_hfr_120fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_8916_hfr_60fps.so:system/vendor/lib/libchromatix_imx214_8916_hfr_60fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_8916_hfr_90fps.so:system/vendor/lib/libchromatix_imx214_8916_hfr_90fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_8916_liveshot.so:system/vendor/lib/libchromatix_imx214_8916_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_8916_preview.so:system/vendor/lib/libchromatix_imx214_8916_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_8916_snapshot.so:system/vendor/lib/libchromatix_imx214_8916_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_8916_video_hd.so:system/vendor/lib/libchromatix_imx214_8916_video_hd.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_hfr_120fps.so:system/vendor/lib/libchromatix_imx214_hfr_120fps.so \
@@ -202,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_preview.so:system/vendor/lib/libchromatix_imx214_preview.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_snapshot_hdr.so:system/vendor/lib/libchromatix_imx214_snapshot_hdr.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_snapshot.so:system/vendor/lib/libchromatix_imx214_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_video_1080p.so:system/vendor/lib/libchromatix_imx214_video_1080p.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx214_video_hdr.so:system/vendor/lib/libchromatix_imx214_video_hdr.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx219_2gong_common.so:system/vendor/lib/libchromatix_imx219_2gong_common.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx219_2gong_default_video.so:system/vendor/lib/libchromatix_imx219_2gong_default_video.so \
@@ -228,10 +153,15 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_preview.so:system/vendor/lib/libchromatix_ov13850_q13v06k_preview.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_q13v06k_snapshot.so:system/vendor/lib/libchromatix_ov13850_q13v06k_snapshot.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_snapshot.so:system/vendor/lib/libchromatix_ov13850_snapshot.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_common.so:system/vendor/lib/libchromatix_ov13850_sunny_common.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_default_video.so:system/vendor/lib/libchromatix_ov13850_sunny_default_video.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_ov13850_sunny_hfr_120fps.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_ov13850_sunny_hfr_60fps.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_ov13850_sunny_hfr_90fps.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_preview.so:system/vendor/lib/libchromatix_ov13850_sunny_preview.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_snapshot.so:system/vendor/lib/libchromatix_ov13850_sunny_snapshot.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov16825_common.so:system/vendor/lib/libchromatix_ov16825_common.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov16825_default_video.so:system/vendor/lib/libchromatix_ov16825_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov16825_hfr_120.so:system/vendor/lib/libchromatix_ov16825_hfr_120.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov16825_hfr_60.so:system/vendor/lib/libchromatix_ov16825_hfr_60.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov16825_preview.so:system/vendor/lib/libchromatix_ov16825_preview.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov16825_snapshot.so:system/vendor/lib/libchromatix_ov16825_snapshot.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov2680_5987fhq_common.so:system/vendor/lib/libchromatix_ov2680_5987fhq_common.so \
@@ -250,12 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov2680_default_video.so:system/vendor/lib/libchromatix_ov2680_default_video.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov2680_preview.so:system/vendor/lib/libchromatix_ov2680_preview.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov2680_snapshot.so:system/vendor/lib/libchromatix_ov2680_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov2720_common.so:system/vendor/lib/libchromatix_ov2720_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov2720_default_video.so:system/vendor/lib/libchromatix_ov2720_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov2720_hfr.so:system/vendor/lib/libchromatix_ov2720_hfr.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov2720_liveshot.so:system/vendor/lib/libchromatix_ov2720_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov2720_preview.so:system/vendor/lib/libchromatix_ov2720_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov2720_zsl.so:system/vendor/lib/libchromatix_ov2720_zsl.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_common.so:system/vendor/lib/libchromatix_ov5648_oty5f03_common.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_default_video.so:system/vendor/lib/libchromatix_ov5648_oty5f03_default_video.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5648_oty5f03_preview.so:system/vendor/lib/libchromatix_ov5648_oty5f03_preview.so \
@@ -273,16 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_preview.so:system/vendor/lib/libchromatix_ov5648_q5v22e_preview.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_snapshot.so:system/vendor/lib/libchromatix_ov5648_q5v22e_snapshot.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5648_q5v22e_zsl.so:system/vendor/lib/libchromatix_ov5648_q5v22e_zsl.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_30010a3_common.so:system/vendor/lib/libchromatix_ov5670_30010a3_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_30010a3_default_video.so:system/vendor/lib/libchromatix_ov5670_30010a3_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_30010a3_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_30010a3_hfr_120fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_30010a3_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_30010a3_hfr_60fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_30010a3_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_30010a3_hfr_90fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_30010a3_liveshot.so:system/vendor/lib/libchromatix_ov5670_30010a3_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_30010a3_preview.so:system/vendor/lib/libchromatix_ov5670_30010a3_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_30010a3_snapshot.so:system/vendor/lib/libchromatix_ov5670_30010a3_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_30010a3_video_hd.so:system/vendor/lib/libchromatix_ov5670_30010a3_video_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_30010a3_zsl.so:system/vendor/lib/libchromatix_ov5670_30010a3_zsl.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_common.so:system/vendor/lib/libchromatix_ov5670_q5v41b_common.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so:system/vendor/lib/libchromatix_ov5670_q5v41b_default_video.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_q5v41b_hfr_120fps.so \
@@ -293,29 +207,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so:system/vendor/lib/libchromatix_ov5670_q5v41b_snapshot.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so:system/vendor/lib/libchromatix_ov5670_q5v41b_video_hd.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_q5v41b_zsl.so:system/vendor/lib/libchromatix_ov5670_q5v41b_zsl.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_qc700_common.so:system/vendor/lib/libchromatix_ov5670_qc700_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_qc700_default_video.so:system/vendor/lib/libchromatix_ov5670_qc700_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_qc700_hfr_120fps.so:system/vendor/lib/libchromatix_ov5670_qc700_hfr_120fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_qc700_hfr_60fps.so:system/vendor/lib/libchromatix_ov5670_qc700_hfr_60fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_qc700_hfr_90fps.so:system/vendor/lib/libchromatix_ov5670_qc700_hfr_90fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_qc700_liveshot.so:system/vendor/lib/libchromatix_ov5670_qc700_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_qc700_preview.so:system/vendor/lib/libchromatix_ov5670_qc700_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_qc700_snapshot.so:system/vendor/lib/libchromatix_ov5670_qc700_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_qc700_video_hd.so:system/vendor/lib/libchromatix_ov5670_qc700_video_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov5670_qc700_zsl.so:system/vendor/lib/libchromatix_ov5670_qc700_zsl.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_common.so:system/vendor/lib/libchromatix_ov8825_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_default_video.so:system/vendor/lib/libchromatix_ov8825_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_hfr_120fps.so:system/vendor/lib/libchromatix_ov8825_hfr_120fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_hfr_60fps.so:system/vendor/lib/libchromatix_ov8825_hfr_60fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_hfr_90fps.so:system/vendor/lib/libchromatix_ov8825_hfr_90fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_liveshot_hd.so:system/vendor/lib/libchromatix_ov8825_liveshot_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_liveshot.so:system/vendor/lib/libchromatix_ov8825_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_preview_hd.so:system/vendor/lib/libchromatix_ov8825_preview_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_preview.so:system/vendor/lib/libchromatix_ov8825_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_snapshot_hd.so:system/vendor/lib/libchromatix_ov8825_snapshot_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_snapshot.so:system/vendor/lib/libchromatix_ov8825_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_video_hd.so:system/vendor/lib/libchromatix_ov8825_video_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8825_zsl.so:system/vendor/lib/libchromatix_ov8825_zsl.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8858_common.so:system/vendor/lib/libchromatix_ov8858_common.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8858_default_video.so:system/vendor/lib/libchromatix_ov8858_default_video.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8858_hfr_120fps.so:system/vendor/lib/libchromatix_ov8858_hfr_120fps.so \
@@ -332,19 +223,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_preview.so:system/vendor/lib/libchromatix_ov8858_q8v19w_preview.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_snapshot.so:system/vendor/lib/libchromatix_ov8858_q8v19w_snapshot.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_video_nonHD.so:system/vendor/lib/libchromatix_ov8858_q8v19w_video_nonHD.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_zsl_30.so:system/vendor/lib/libchromatix_ov8858_q8v19w_zsl_30.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8858_q8v19w_zsl.so:system/vendor/lib/libchromatix_ov8858_q8v19w_zsl.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8858_snapshot.so:system/vendor/lib/libchromatix_ov8858_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_cm9462_common.so:system/vendor/lib/libchromatix_ov8865_cm9462_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_cm9462_default_video.so:system/vendor/lib/libchromatix_ov8865_cm9462_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_cm9462_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_cm9462_hfr_120fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_cm9462_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_cm9462_hfr_60fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_cm9462_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_cm9462_hfr_90fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_cm9462_liveshot.so:system/vendor/lib/libchromatix_ov8865_cm9462_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_cm9462_preview.so:system/vendor/lib/libchromatix_ov8865_cm9462_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_cm9462_snapshot.so:system/vendor/lib/libchromatix_ov8865_cm9462_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_cm9462_video_hd.so:system/vendor/lib/libchromatix_ov8865_cm9462_video_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_cm9462_zsl.so:system/vendor/lib/libchromatix_ov8865_cm9462_zsl.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_common.so:system/vendor/lib/libchromatix_ov8865_q8v18a_common.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so:system/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so \
@@ -355,83 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so:system/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so:system/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so:system/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov9724_common.so:system/vendor/lib/libchromatix_ov9724_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov9724_default_video.so:system/vendor/lib/libchromatix_ov9724_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov9724_liveshot.so:system/vendor/lib/libchromatix_ov9724_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov9724_preview.so:system/vendor/lib/libchromatix_ov9724_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3l1yx_common.so:system/vendor/lib/libchromatix_s5k3l1yx_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3l1yx_default_video.so:system/vendor/lib/libchromatix_s5k3l1yx_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3l1yx_liveshot.so:system/vendor/lib/libchromatix_s5k3l1yx_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3l1yx_preview.so:system/vendor/lib/libchromatix_s5k3l1yx_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3l1yx_snapshot.so:system/vendor/lib/libchromatix_s5k3l1yx_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3l1yx_video_hd.so:system/vendor/lib/libchromatix_s5k3l1yx_video_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3l1yx_zsl.so:system/vendor/lib/libchromatix_s5k3l1yx_zsl.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2_olqba20_common.so:system/vendor/lib/libchromatix_s5k3m2_olqba20_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2_olqba20_default_video.so:system/vendor/lib/libchromatix_s5k3m2_olqba20_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2_olqba20_hfr_120fps.so:system/vendor/lib/libchromatix_s5k3m2_olqba20_hfr_120fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2_olqba20_hfr_60fps.so:system/vendor/lib/libchromatix_s5k3m2_olqba20_hfr_60fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2_olqba20_hfr_90fps.so:system/vendor/lib/libchromatix_s5k3m2_olqba20_hfr_90fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2_olqba20_preview.so:system/vendor/lib/libchromatix_s5k3m2_olqba20_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2_olqba20_snapshot.so:system/vendor/lib/libchromatix_s5k3m2_olqba20_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2xm_common.so:system/vendor/lib/libchromatix_s5k3m2xm_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2xm_default_video.so:system/vendor/lib/libchromatix_s5k3m2xm_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_120.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_60.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so:system/vendor/lib/libchromatix_s5k3m2xm_hfr_90.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2xm_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xm_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2xm_preview.so:system/vendor/lib/libchromatix_s5k3m2xm_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k3m2xm_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xm_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_default_video.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_120fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_60fps.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_60fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_90fps.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_hfr_90fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_liveshot.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_preview.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_snapshot.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_video_hd.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_video_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_S5K4E1_13P1BA_zsl.so:system/vendor/lib/libchromatix_S5K4E1_13P1BA_zsl.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_common.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_liveshot.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_preview.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so:system/vendor/lib/libchromatix_s5k5e2_olq5f19_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so:system/vendor/lib/libchromatix_SKUAA_ST_gc0339_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so:system/vendor/lib/libchromatix_skuab_shinetech_gc0339_zsl.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_120fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_60fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_hfr_90fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_liveshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_video_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so:system/vendor/lib/libchromatix_SKUAB_ST_s5k4e1_zsl.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_120fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_60fps.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_60fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_90fps.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_hfr_90fps.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_preview.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_snapshot.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_video_hd.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so:system/vendor/lib/libchromatix_skuf_ov12830_p12v01c_zsl.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_common.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_default_video.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_preview.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so:system/vendor/lib/libchromatix_skuf_ov5648_p5v23c_snapshot.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_sp2508_common.so:system/vendor/lib/libchromatix_sp2508_common.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_sp2508_default_video.so:system/vendor/lib/libchromatix_sp2508_default_video.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_sp2508_preview.so:system/vendor/lib/libchromatix_sp2508_preview.so \
@@ -477,83 +280,31 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_eeprom.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_gc0310.so:system/vendor/lib/libmmcamera_gc0310.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_gc2355_8916.so:system/vendor/lib/libmmcamera_gc2355_8916.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_hi256.so:system/vendor/lib/libmmcamera_hi256.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_hi545_8916.so:system/vendor/lib/libmmcamera_hi545_8916.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_imx134.so:system/vendor/lib/libmmcamera_imx134.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_imx179_olq8a23.so:system/vendor/lib/libmmcamera_imx179_olq8a23.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_imx214_8916.so:system/vendor/lib/libmmcamera_imx214_8916.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_imx219_q8n13a.so:system/vendor/lib/libmmcamera_imx219_q8n13a.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_lenovo_ov5670_eeprom.so:system/vendor/lib/libmmcamera_lenovo_ov5670_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_Liteon_ov16825_eeprom.so:system/vendor/lib/libmmcamera_Liteon_ov16825_eeprom.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_mt9m114.so:system/vendor/lib/libmmcamera_mt9m114.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so:system/vendor/lib/libmmcamera_ofilm_oty5f03_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:system/vendor/lib/libmmcamera_ov13850_q13v06k.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov16825.so:system/vendor/lib/libmmcamera_ov16825.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov2680_5987fhq.so:system/vendor/lib/libmmcamera_ov2680_5987fhq.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov2680_cht852b.so:system/vendor/lib/libmmcamera_ov2680_cht852b.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov2680_pc0fb0003b.so:system/vendor/lib/libmmcamera_ov2680_pc0fb0003b.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov2680_skuhf.so:system/vendor/lib/libmmcamera_ov2680_skuhf.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov2680.so:system/vendor/lib/libmmcamera_ov2680.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov2720.so:system/vendor/lib/libmmcamera_ov2720.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov5648_oty5f03.so:system/vendor/lib/libmmcamera_ov5648_oty5f03.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov5648_p5v18g.so:system/vendor/lib/libmmcamera_ov5648_p5v18g.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov5648_q5v22e.so:system/vendor/lib/libmmcamera_ov5648_q5v22e.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov5670_30010a3.so:system/vendor/lib/libmmcamera_ov5670_30010a3.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:system/vendor/lib/libmmcamera_ov5670_q5v41b.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov5670_qc700.so:system/vendor/lib/libmmcamera_ov5670_qc700.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov7695.so:system/vendor/lib/libmmcamera_ov7695.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov8825.so:system/vendor/lib/libmmcamera_ov8825.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov8858_q8v19w_30.so:system/vendor/lib/libmmcamera_ov8858_q8v19w_30.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov8858_q8v19w.so:system/vendor/lib/libmmcamera_ov8858_q8v19w.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov8865_cm9462.so:system/vendor/lib/libmmcamera_ov8865_cm9462.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov9724.so:system/vendor/lib/libmmcamera_ov9724.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_s5k3l1yx.so:system/vendor/lib/libmmcamera_s5k3l1yx.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_s5k3m2_olqba20_eeprom.so:system/vendor/lib/libmmcamera_s5k3m2_olqba20_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_s5k3m2_olqba20.so:system/vendor/lib/libmmcamera_s5k3m2_olqba20.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:system/vendor/lib/libmmcamera_s5k3m2xm.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_S5K4E1_13P1BA.so:system/vendor/lib/libmmcamera_S5K4E1_13P1BA.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_s5k4h5_cma334_eeprom.so:system/vendor/lib/libmmcamera_s5k4h5_cma334_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_s5k4h5_cma334.so:system/vendor/lib/libmmcamera_s5k4h5_cma334.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_s5k5e2_olq5f19_eeprom.so:system/vendor/lib/libmmcamera_s5k5e2_olq5f19_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_s5k5e2_olq5f19.so:system/vendor/lib/libmmcamera_s5k5e2_olq5f19.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so:system/vendor/lib/libmmcamera_SKUAA_ST_gc0339.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so:system/vendor/lib/libmmcamera_skuab_shinetech_gc0339.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so:system/vendor/lib/libmmcamera_SKUAB_ST_s5k4e1.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so:system/vendor/lib/libmmcamera_skuf_ov12830_p12v01c.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so:system/vendor/lib/libmmcamera_skuf_ov5648_p5v23c.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sony_imx219_eeprom.so:system/vendor/lib/libmmcamera_sony_imx219_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sp1628.so:system/vendor/lib/libmmcamera_sp1628.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sp2508.so:system/vendor/lib/libmmcamera_sp2508.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so:system/vendor/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so:system/vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so:system/vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunny_q13v04b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v04b_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunny_q5v22e_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v22e_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunrise_pc0fe_eeprom.so:system/vendor/lib/libmmcamera_sunrise_pc0fe_eeprom.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_truly_cm7700_eeprom.so:system/vendor/lib/libmmcamera_truly_cm7700_eeprom.so \
-    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_truly_cma026_eeprom.so:system/vendor/lib/libmmcamera_truly_cma026_eeprom.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so:system/vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so \
