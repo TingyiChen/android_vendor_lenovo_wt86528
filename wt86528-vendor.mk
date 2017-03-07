@@ -299,6 +299,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sony_imx219_eeprom.so:system/vendor/lib/libmmcamera_sony_imx219_eeprom.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sp2508.so:system/vendor/lib/libmmcamera_sp2508.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so:system/vendor/lib/libmmcamera_sunny_ov8858_q8v19w_eeprom.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
