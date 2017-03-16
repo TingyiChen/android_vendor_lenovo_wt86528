@@ -58,7 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/etc/sound_trigger_mixer_paths.xml:system/etc/sound_trigger_mixer_paths.xml \
     vendor/lenovo/wt86528/proprietary/etc/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
     vendor/lenovo/wt86528/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
-    vendor/lenovo/wt86528/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.vendor.so \
+    vendor/lenovo/wt86528/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/lenovo/wt86528/proprietary/lib/hw/gps.msm8916.so:system/lib/hw/gps.msm8916.so \
     vendor/lenovo/wt86528/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
     vendor/lenovo/wt86528/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
