@@ -255,6 +255,9 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
