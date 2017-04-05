@@ -59,6 +59,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/etc/sound_trigger_platform_info.xml:system/etc/sound_trigger_platform_info.xml \
     vendor/lenovo/wt86528/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
     vendor/lenovo/wt86528/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/lenovo/wt86528/proprietary/lib/hw/camera.goldfish.so:system/lib/hw/camera.goldfish.so \
+    vendor/lenovo/wt86528/proprietary/lib/hw/camera.goldfish.jpeg.so:system/lib/hw/camera.goldfish.jpeg.so \
     vendor/lenovo/wt86528/proprietary/lib/hw/gps.msm8916.so:system/lib/hw/gps.msm8916.so \
     vendor/lenovo/wt86528/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
     vendor/lenovo/wt86528/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
@@ -115,6 +117,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libcamerahandler_jni.so:system/vendor/lib/libcamerahandler_jni.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_gc2355_8916_common.so:system/vendor/lib/libchromatix_gc2355_8916_common.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_gc2355_8916_default_video.so:system/vendor/lib/libchromatix_gc2355_8916_default_video.so \
