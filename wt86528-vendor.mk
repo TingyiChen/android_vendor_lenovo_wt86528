@@ -177,6 +177,23 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so:system/vendor/lib/libchromatix_imx219_q8n13a_liveshot.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx219_q8n13a_preview.so:system/vendor/lib/libchromatix_imx219_q8n13a_preview.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_imx219_q8n13a_snapshot.so:system/vendor/lib/libchromatix_imx219_q8n13a_snapshot.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_common.so:system/vendor/lib/libchromatix_ov13850_sunny_common.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_default_video.so:system/vendor/lib/libchromatix_ov13850_sunny_default_video.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_hfr_120fps.so:system/vendor/lib/libchromatix_ov13850_sunny_hfr_120fps.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_hfr_60fps.so:system/vendor/lib/libchromatix_ov13850_sunny_hfr_60fps.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_hfr_90fps.so:system/vendor/lib/libchromatix_ov13850_sunny_hfr_90fps.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_preview.so:system/vendor/lib/libchromatix_ov13850_sunny_preview.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov13850_sunny_snapshot.so:system/vendor/lib/libchromatix_ov13850_sunny_snapshot.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_common.so:system/vendor/lib/libchromatix_ov8865_q8v18a_common.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so:system/vendor/lib/libchromatix_ov8865_q8v18a_default_video.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_120fps.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_60fps.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so:system/vendor/lib/libchromatix_ov8865_q8v18a_hfr_90fps.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so:system/vendor/lib/libchromatix_ov8865_q8v18a_liveshot.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_preview.so:system/vendor/lib/libchromatix_ov8865_q8v18a_preview.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so:system/vendor/lib/libchromatix_ov8865_q8v18a_snapshot.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so:system/vendor/lib/libchromatix_ov8865_q8v18a_video_hd.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so:system/vendor/lib/libchromatix_ov8865_q8v18a_zsl.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -225,11 +242,15 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_imx219_q8n13a.so:system/vendor/lib/libmmcamera_imx219_q8n13a.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_lenovo_ov5670_eeprom.so:system/vendor/lib/libmmcamera_lenovo_ov5670_eeprom.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_ov8865_q8v18a.so:system/vendor/lib/libmmcamera_ov8865_q8v18a.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sony_imx219_eeprom.so:system/vendor/lib/libmmcamera_sony_imx219_eeprom.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so:system/vendor/lib/libmmcamera_sunny_q8v18a_eeprom.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
+    vendor/lenovo/wt86528/proprietary/vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so:system/vendor/lib/libmmcamera_wingtech_ov13850_eeprom.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/lenovo/wt86528/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
